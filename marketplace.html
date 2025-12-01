@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Маркетплейс - DOLIUM VENANDI</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <nav>
+      <a href="./index.html" class="no-modal">Головна</a>
+      <a href="./marketplace.html" class="no-modal" class="active">Маркетплейс</a>
+      
+    </nav>
+
+    <header class="market-header">
+        <h1>Каталог напоїв</h1>
+        <p>Обирайте з ексклюзивної колекції.</p>
+        <p>Увага, порядок пляшечок та зміст наборів може незначно змінюватися через сезонність.</p>
+    </header>
+
+    <section class="market">
+        <div class="product" data-product="wine">
+            <img src="./Images/market1.jpg" alt="Вино" />
+            <h3>Подарунковий набір 1</h3>
+            <p>Соковиті настоянки</p>
+        </div>
+        <div class="product" data-product="whiskey">
+            <img src="./Images/market2.jpg" alt="Віскі" />
+            <h3>Подарунковий набір 2</h3>
+            <p>Фруктовий фітокомплекс</p>
+        </div>
+        <div class="product" data-product="champagne">
+            <img src="./Images/market3.jpg" alt="Шампанське" />
+            <h3>Подарунковий набір 3</h3>
+            <p> Насіння, коріння та злаки</p>
+        </div>
+        <div class="product" data-product="kognag">
+            <img src="./Images/market4.jpg" alt="Коньяк" />
+            <h3>Подарунковий набір 4</h3>
+            <p>Корисні рослини</p>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="modal-text">
+              <h2 id="modal-title"></h2>
+              <p id="modal-desc"></p>
+          </div>
+          <img id="modal-img" src="" alt="Фото продукту" />
+      </div>
+  </div>
+  <div class="container">
+    <a href="https://web.telegram.org/k/#@aleksey_Ivakhnenko" class="btn-market">Замовити</a>
+  </div>  
+    <footer>
+        <p>&copy; 2025 DOLIUM VENANDI</p>
+    </footer>
+</body>
+</html>
